@@ -32,17 +32,17 @@ window.onload = function () {
 
 function preload() {
   //Som
-  laranja = loadSound("assets/sounds/laranja_mixagem.wav");
-  amarelo = loadSound("assets/sounds/amarelo_mixagem.wav");
-  verde = loadSound("assets/sounds/verde_mixagem.wav");
-  azul_claro = loadSound("assets/sounds/azul_claro_mixagem.wav");
-  azul_escuro = loadSound("assets/sounds/azul_escuro_mixagem.wav");
-  roxo = loadSound("assets/sounds/roxo_mixagem.wav");
-  rosa = loadSound("assets/sounds/rosa_mixagem.wav");
-  vermelho = loadSound("assets/sounds/vermelho_mixagem.wav");
+  laranja = loadSound("../assets/sounds/laranja_mixagem.wav");
+  amarelo = loadSound("../assets/sounds/amarelo_mixagem.wav");
+  verde = loadSound("../assets/sounds/verde_mixagem.wav");
+  azul_claro = loadSound("../assets/sounds/azul_claro_mixagem.wav");
+  azul_escuro = loadSound("../assets/sounds/azul_escuro_mixagem.wav");
+  roxo = loadSound("../assets/sounds/roxo_mixagem.wav");
+  rosa = loadSound("../assets/sounds/rosa_mixagem.wav");
+  vermelho = loadSound("../assets/sounds/vermelho_mixagem.wav");
 
   //Pincel
-  Brush = loadImage("assets/images/brush2.png");
+  Brush = loadImage("../assets/images/brush2.png");
 }
 
 function setup() {
